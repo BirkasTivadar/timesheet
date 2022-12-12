@@ -37,7 +37,7 @@ Java    10
 
 C++ 4
 
-Ez azt jelenti, hogy John Connor 2013 januárjában összesen 14 órát dolgozott, ebből 10 órát a Java projekten, 4 órát a C# projekten.
+Ez azt jelenti, hogy John Connor 2013 januárjában összesen 14 órát dolgozott, ebből 10 órát a Java projekten, 4 órát a C++ projekten.
 
 Különösen ügyeljünk arra, hogy rövid metódusaink legyenek, és ne legyen benne blokkok egymásba ágyazása két szintnél mélyebben!
 
