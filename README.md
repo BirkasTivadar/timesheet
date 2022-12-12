@@ -31,8 +31,10 @@ A megfelelő projekt-óra párok kialakításához segítségedre lehet a Riport
 A printToFile() metódus írja ki az előző eredményét fájlba! Fontos, hogy csak olyan alkalmazott adatait engedjük kiírni, aki valóban a cégnél dolgozik! A projektek felsorolásánál csak azokat írjuk ki amin valóban dolgozott!
 A fájl formátuma:
 
-John Connor 2013-01 14
-Java    10
+John Connor 2013-01 14 
+
+Java    10 
+
 C++ 4
 
 Ez azt jelenti, hogy John Connor 2013 januárjában összesen 14 órát dolgozott, ebből 10 órát a Java projekten, 4 órát a C# projekten.
