@@ -64,14 +64,14 @@ public class Company {
         List<ReportLine> result = new ArrayList<>();
         projects.forEach(project -> result.add(new ReportLine(project, 0)));
 
-        List<TimeSheetItem> timeSheetItemsOfEmployee = getTimeSheetItemsOfEmployee(employee, year, month);
+        List<TimeSheetItem> timeSheetItemsOfEmployee = getTimeSheetItemsByNameYearMonth(employee, year, month);
 
         loadResultFromTimeSheetItems(result, timeSheetItemsOfEmployee);
 
         return result;
     }
 
-    private List<TimeSheetItem> getTimeSheetItemsOfEmployee(Employee employee, int year, int month) {
+    private List<TimeSheetItem> getTimeSheetItemsByNameYearMonth(Employee employee, int year, int month) {
         return timeSheetItems.stream()
                 .filter(timeSheetItem ->
                         timeSheetItem.employee().equals(employee)
